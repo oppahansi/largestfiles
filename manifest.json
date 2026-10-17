@@ -1,0 +1,61 @@
+[
+  {
+    "guid": "645064fc-7b74-4de2-afe2-56f4cd5a5c45",
+    "name": "Largest Files",
+    "description": "Lists media files sorted by size and shows per-library statistics: file count, total and average size, largest file, largest series and size by file type.",
+    "overview": "See the largest files in your libraries and per-library storage statistics",
+    "owner": "oppahansi",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/oppahansi/largestfiles/main/docs/screenshot.png",
+    "versions": [
+      {
+        "version": "1.0.0.1202",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-12.2",
+        "targetAbi": "12.2.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-12.2/largestfiles_1.0.0_jellyfin-12.2.zip",
+        "checksum": "43ca1bb95f65a1ed6ee8d571e0f1d47f",
+        "timestamp": "2026-10-17T12:20:54Z"
+      },
+      {
+        "version": "1.0.0.1201",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-12.1",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-12.1/largestfiles_1.0.0_jellyfin-12.1.zip",
+        "checksum": "1db2e898f9b15f57976c5de1b5a2b8e5",
+        "timestamp": "2026-10-17T12:20:51Z"
+      },
+      {
+        "version": "1.0.0.1200",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-12.0",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-12.0/largestfiles_1.0.0_jellyfin-12.0.zip",
+        "checksum": "21e169155b61853ffb5320f6969ba5b8",
+        "timestamp": "2026-10-17T12:20:49Z"
+      },
+      {
+        "version": "1.0.0.1011",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-10.11/largestfiles_1.0.0_jellyfin-10.11.zip",
+        "checksum": "41418aae66e8a0d03c5681c852c4329a",
+        "timestamp": "2026-10-17T12:20:46Z"
+      },
+      {
+        "version": "1.0.0.1010",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-10.10",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-10.10/largestfiles_1.0.0_jellyfin-10.10.zip",
+        "checksum": "f2081b637b472442bb0c0c95b8dd8b2c",
+        "timestamp": "2026-10-17T12:20:43Z"
+      },
+      {
+        "version": "1.0.0.1009",
+        "changelog": "https://github.com/oppahansi/largestfiles/releases/tag/v1.0.0-jellyfin-10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/oppahansi/largestfiles/releases/download/v1.0.0-jellyfin-10.9/largestfiles_1.0.0_jellyfin-10.9.zip",
+        "checksum": "65575f4ae9f1be4f8de54ba7e1b45a75",
+        "timestamp": "2026-10-17T12:20:41Z"
+      }
+    ]
+  }
+]
