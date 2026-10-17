@@ -6,7 +6,7 @@
     "overview": "See the largest files in your libraries and per-library storage statistics",
     "owner": "oppahansi",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/oppahansi/largestfiles/main/docs/screenshot.png",
+    "imageUrl": "https://raw.githubusercontent.com/oppahansi/largestfiles/main/docs/largest-files-dashboard.png",
     "versions": [
       {
         "version": "1.0.0.1202",

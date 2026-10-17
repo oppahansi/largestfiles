@@ -25,7 +25,7 @@ PLUGIN = {
     "overview": "See the largest files in your libraries and per-library storage statistics",
     "owner": "oppahansi",
     "category": "General",
-    "imageUrl": f"https://raw.githubusercontent.com/{REPO}/main/docs/screenshot.png",
+    "imageUrl": f"https://raw.githubusercontent.com/{REPO}/main/docs/largest-files-dashboard.png",
 }
 
 

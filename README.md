@@ -5,7 +5,7 @@
 
 A Jellyfin plugin that shows which files take up the most space in your libraries, plus storage statistics per library.
 
-![Largest Files dashboard page](docs/screenshot.png)
+![Largest Files dashboard page](docs/largest-files-dashboard.png)
 
 ## Features
 
