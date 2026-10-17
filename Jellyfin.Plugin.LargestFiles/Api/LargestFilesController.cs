@@ -54,13 +54,16 @@ public class LargestFilesController : ControllerBase
 
         foreach (var folder in _libraryManager.GetVirtualFolders())
         {
-            if (!Guid.TryParse(folder.ItemId, out var id))
+            var collectionType = folder.CollectionType?.ToString();
+
+            // Collections only group items that live in other libraries, they have no files of their own.
+            if (!Guid.TryParse(folder.ItemId, out var id) || string.Equals(collectionType, "boxsets", StringComparison.OrdinalIgnoreCase))
             {
                 continue;
             }
 
             var files = GetFiles(id, folder.Name);
-            libraries.Add(BuildStats(id, folder.Name, folder.CollectionType?.ToString(), files));
+            libraries.Add(BuildStats(id, folder.Name, collectionType, files));
 
             if (libraryId is null || libraryId == id)
             {

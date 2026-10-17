@@ -93,13 +93,12 @@
                 }
 
                 function renderCards(report) {
-                    var max = report.Libraries.reduce(function (m, l) { return Math.max(m, l.TotalSize); }, 0) || 1;
                     page.querySelector('#lfCards').innerHTML = report.Libraries.map(function (lib) {
-                        var share = report.TotalSize ? (lib.TotalSize / report.TotalSize * 100).toFixed(1) : '0';
+                        var share = report.TotalSize ? lib.TotalSize / report.TotalSize * 100 : 0;
                         var html = '<div class="lf-card"><h3>' + esc(lib.Name) + '</h3>'
-                            + '<div class="lf-bar"><span style="width:' + (lib.TotalSize / max * 100) + '%"></span></div>'
+                            + '<div class="lf-bar" title="' + share.toFixed(1) + '% of all libraries"><span style="width:' + share + '%"></span></div>'
                             + '<dl>'
-                            + '<dt>Total</dt><dd>' + formatBytes(lib.TotalSize) + ' (' + share + '%)</dd>'
+                            + '<dt>Total</dt><dd>' + formatBytes(lib.TotalSize) + ' (' + share.toFixed(1) + '%)</dd>'
                             + '<dt>Files</dt><dd>' + lib.FileCount.toLocaleString() + '</dd>'
                             + '<dt>Average</dt><dd>' + formatBytes(lib.AverageSize) + '</dd>';
                         if (lib.LargestFile) {
