@@ -21,6 +21,8 @@ The page is only visible to administrators and doesn't change anything on disk. 
 
 | Jellyfin | .NET | Release tag |
 |---|---|---|
+| 12.4.x | 10 | `v<version>-jellyfin-12.4` |
+| 12.3.x | 10 | `v<version>-jellyfin-12.3` |
 | 12.2.x | 10 | `v<version>-jellyfin-12.2` |
 | 12.1.x | 10 | `v<version>-jellyfin-12.1` |
 | 12.0.x | 10 | `v<version>-jellyfin-12.0` |
