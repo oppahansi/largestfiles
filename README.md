@@ -2,6 +2,7 @@
 
 [![Build](https://github.com/oppahansi/largestfiles/actions/workflows/build.yml/badge.svg)](https://github.com/oppahansi/largestfiles/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=Join&color=blue)](https://discord.gg/ncKmDEArqg)
 
 A Jellyfin plugin that shows which files take up the most space in your libraries, plus storage statistics per library.
 
